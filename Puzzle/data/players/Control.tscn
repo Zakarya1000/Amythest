@@ -1,0 +1,54 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://data/scripts/devdata.gd" type="Script" id=1]
+
+[node name="Control" type="Control"]
+visible = false
+margin_right = 40.0
+margin_bottom = 40.0
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="."]
+margin_left = -504.0
+margin_top = -296.0
+margin_right = -424.0
+margin_bottom = -280.0
+text = "not set"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label2" type="Label" parent="."]
+margin_left = -504.0
+margin_top = -280.0
+margin_right = -424.0
+margin_bottom = -264.0
+text = "not set"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label3" type="Label" parent="."]
+margin_left = 424.0
+margin_top = -288.0
+margin_right = 504.0
+margin_bottom = -272.0
+text = "not set"
+align = 2
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label4" type="Label" parent="."]
+margin_left = 424.0
+margin_top = -272.0
+margin_right = 504.0
+margin_bottom = -256.0
+text = "not set"
+align = 2
+__meta__ = {
+"_edit_use_anchors_": false
+}
